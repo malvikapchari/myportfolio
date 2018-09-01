@@ -1,0 +1,251 @@
+img {
+    height: 200px;
+    width: 230px;
+    
+    }
+    
+    
+    body {
+    background-image: url(https://raw.githubusercontent.com/chinjon/basic-portfolio/master/assets/css/../images/wallpaper.png);
+    background-repeat: repeat;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    }
+    
+    .footer {
+    clear:both;
+    position: fixed;
+    width:100%;
+    height: 65px;
+    margin-top:50px;
+    color:white;
+    border-top:solid 14px #4aaaa5;
+    background-color:#666;
+    text-align: center;
+    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 1.45pc;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    }
+    
+    .mainHeader {
+    position:relative;
+    width: 100%;
+    height: 60px;
+    background-color:#ffffff;
+    text-align: right;
+    border-bottom: solid 6px lightgray;
+    font:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: grey;
+    font-size: 1.15pc;
+   
+    }
+    
+    .headername {
+    position:absolute;
+    bottom: 0;
+    margin-bottom: 0px;
+    text-align:center;
+    background-color: #4aaaa5;
+    color: white;
+    width:300px;
+    height:60px;
+    left: 25px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 1.75pc;
+    line-height: 65px;
+    }
+    
+    a {
+    font:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    font-size: 1.15pc;
+    text-decoration:none;
+    padding: 10px;
+    line-height: 65px;
+    }
+    
+    .aboutMe {
+    background-color: #ffffff;
+    width: 960px;
+    padding: 0;
+    float: middle;
+    margin:55px auto 80px auto;
+    border:2px;
+    border-color: #dddddd;
+    }
+    
+    .aboutMeHeader {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 1pc;
+    color: #4aaaa5;
+    border-bottom: solid 1px gray;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    line-height: 35px;
+    margin-right: 30px;
+    
+    }
+    
+    .aboutMePhoto {
+    float:left;
+    margin: 0 15px 15px 0;
+    padding: 0;
+    margin-left: 30px;
+    }
+    
+    p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    line-height:3.5ex;
+    font-size: 0.865pc;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+    }
+    
+    .contactbody {
+    background-color:#ffffff;
+    width: 960px;
+    padding: 0;
+    float: middle;
+    margin:55px auto 80px auto;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    border:2px;
+    border-color: #dddddd;
+    }
+    
+    .contactHeader {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 2pc;
+    color: #4aaaa5;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    line-height: 35px;
+    
+    }
+    
+    form{
+    position: relative;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #666;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color:#ffffff;
+    }
+
+    #submit {
+    background-color:#4aaaa5;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 10px; 
+    text-align: center;
+    }
+
+    .portfolioMain {
+    background-color: #ffffff;
+    width: 960px;
+    height:900px;
+    padding: 0;
+    float: middle;
+    margin:55px auto 80px auto;
+    margin-top: 20px;
+    margin-bottom: 250px;
+    }
+
+    .portfolioHead {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 2pc;
+    color: #4aaaa5;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    line-height: 35px;
+    }
+    
+    
+      #left1 {
+        width: 240px;
+        height: 180px;
+        border: solid #000 1px;
+        display: inline-block;
+        padding: 0;
+        background-image: url('https://loremflickr.com/320/240/dog');
+        position: relative;
+        font-size: 19px;
+        font-style: bold;
+      }
+      #left2 {
+        width: 240px;
+        height: 180px;
+        border: solid #000 1px;
+        display: inline-block;
+        padding: 0;
+        background-image: url('https://loremflickr.com/320/240/paris,girl/all');
+        position: relative;
+        font-size: 19px;
+        font-style: bold;
+      }
+    
+      #left3 {
+        width: 240px;
+        height: 180px;
+        border: solid #000 1px;
+        display: inline-block;
+        padding: 0;
+        background-image: url('https://picsum.photos/g/200/300');
+        position: relative;
+        font-size: 19px;
+        font-style: bold;
+      }
+
+      #right1 {
+        width: 240px;
+        height: 180px;
+        border: solid #000 1px;
+        display: inline-block;
+        padding: 0;
+        background-image: url('https://loremflickr.com/320/240/brazil,rio');
+        position: relative;
+        font-size: 19px;
+        font-style: bold;
+      }
+
+      #right2 {
+        width: 240px;
+        height: 180px;
+        border: solid #000 1px;
+        display: inline-block;
+        padding: 0;
+        background-image: url('https://picsum.photos/200/300/?random');
+        position: relative;
+        font-size: 19px;
+        font-style: bold;
+      }
+
+      .wrapper {
+        float: left;
+        margin: 0 30px;
+      }
+
+      .row {  left: 0;
+        display: inline-block;
+        margin: 15px 0;
+
+      }
+
+      .textvalue {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background: rgba(74, 170, 165, 0.7);
+        color: #fff;
+        height: auto;
+        line-height: 40px;
+        top: 100px;
+        text-align: center;
+      }
